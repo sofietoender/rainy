@@ -4,6 +4,18 @@ html {
     overflow-x: none;
 }
 
+html {
+    box-sizing: border-box;
+   }
+   html:focus-within {
+    scroll-behavior: smooth;
+   }
+   *,
+   *::before,
+   *::after {
+    box-sizing: inherit;
+   }
+
 body {
 
    width: 100%;

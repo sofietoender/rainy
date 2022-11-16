@@ -39,6 +39,7 @@ body {
     background-color: #F1F1F2;
     width: 100%;
     margin:0;
+    width: 100%;
     
 
 
@@ -54,7 +55,6 @@ nav {
 
 .navbar {
     display: flex;
-    justify-content: 
     width: 100%;
     
 }
@@ -63,12 +63,14 @@ nav {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    
 }
 
 li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 
 }
 
@@ -117,6 +119,7 @@ header {
     list-style: none;
     text-decoration: none;
     font-family: roboto;
+    width: 100%;
     
     
     
@@ -324,14 +327,16 @@ footer {
     background: var(--grey);
     display:flex;
     flex-direction: row;
+    background: white;
+    border: var(--grey) 3px solid;
     
 }
 
 .product-card1 {
-    background: white;
-    border:var(--grey)solid 2px;
-    padding: 20px;
-    width: 300px;
+ padding: 20px;
+ width: 300px;
+margin: 20px ;
+    
 
     
 }
@@ -342,6 +347,7 @@ footer {
     padding: 30px;
     padding-bottom: 90px;
     border: #F1F1F2 solid 2px;
+    position: relative;
     
     
     

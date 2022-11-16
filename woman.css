@@ -1,85 +1,237 @@
 
 
-html {
-    width: 100%;
-    height: 100%;
-    
-}
 
-body {
-    height: 100%;
-}
+
 
 :root {
     --mainfont: 'Roboto', sans-serif;
     --blue:#4C6A72;
     --grey:#F1F1F2;
     --darkgrey:#808181;
-}
+    
+    }
+    
+    html {
+        height: 100%;margin:0px;
+        overflow-x:hidden;
 
-.product-card {
-    background: var(--grey);
-    display:flex;
-    flex-direction: row;
-  
+        
+        
+        
+        
+    }
+
+
     
     
-}
-
-.product-card1 {
-    background: white;
-    
-    padding: 20px;
-    width: 300px;
-
-    
-}
-
-.productimage {
-    width: 200px;
-    background: var(--grey);
-    padding: 30px;
-    padding-bottom: 90px;
-    border: #F1F1F2 solid 2px;
+    body {
+        height: 100%;
+        background-color: white;
+        width: 100%;
+        margin:0;
+        width: 100%;
+        font-family: var(--mainfont);
+        
     
     
+    }
+
+    header {
+        background: var(--grey);
+        
+    }
     
-}
-
-.text-product {
-    font-family: var(--mainfont);
-    position: relative;
-}
-
-
-.section-product-card {
-
-    margin-bottom:30px;
-    margin-top: 30px;
     
-}
-
-.section-product-card p {
-    font-family: var(--mainfont);
- 
+    nav {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+       
+    }
     
-}
-
-.product-price {
-    font-size: 1rem;
-    color: var(--blue);
+    .navbar {
+        display: flex;
+        width: 100%;
+        
+    }
     
-}
+    .navicons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+    }
+    
+    
+    
+    
+    
+    hr {
+        border: 0,5px solid #808181;
+        width: 95%;
+    }
 
-.product-brand {
-    font-weight: bold;
-}
+    
+    
+    
+    
+    
+    header img {
+       width: 100px;
+       margin-top: 20px;
+    
+    
+      
+    
+            
+    }
+    
+    header {
+        margin-top: 40px;
+        padding-bottom: 30px;
+        margin-bottom: 30px;
+        
+        
+          
+        
+    }
+    
+    
+    
+    .navlogo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        
+        
+    
+    }
+    
+    .navtext{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        text-decoration: none;
+        font-family: roboto;
+        width: 100%;
+        
+        
+        
+    }
 
-.textfavorite {
-    font-size: 2em;
-}
+    .container {
+        display: grid;
+        grid-template-areas: "mycard1 mycard2 mycard3 "
+        "mycard4 mycard5 mycard6 "
+        "mycard7 mycard8 mycard9 "
+        ;
+        grid-template-rows: 1fr;
+        width: 100%;
+        margin: 20px;
+        justify-content: space-evenly;
+        gap:20px;
+        
+        
+       
+    
+    }
 
-hr {
-    border-color: var(--grey);
+    select {
+        padding: 10px;
+        margin: 10px;
+        padding-right: 60px;
+        font-family: var(--mainfont);
+
+    
+        
+    }
+
+    .dropdown {
+        display: flex;
+    }
+    
+    .card1 {
+    grid-area: mycard1;
     width: 100%;
-}
+    
+    
+    
+    }
+    
+    .card2 {
+        grid-area: mycard2
+        width: 100%;
+    }
+    
+    .card3 {
+        grid-area: mycard3;
+        width: 100%;
+        
+    
+    }
+    
+    .card4 {
+        grid-area: mycard4;
+        width: 100%;
+    }
+    
+    .card5 {
+        grid-area: mycard5;
+        width: 100%;
+    }
+    
+    .card6 {
+        grid-area: mycard6;
+        width: 100%;
+    }
+    
+    .card7 {
+        grid-area: mycard7;
+        width: 100%;
+    }
+    .card8 {
+        grid-area: mycard8;
+        width: 100%;
+    }
+    
+    .card9 {
+            grid-area: mycard9;
+            width: 100%;
+        }
+    
+    
+    
+    
+    .productjacket {
+        background: var(--grey);
+        padding: 30px;
+        width:200px;
+    }
+
+
+
+
+
+
+
+
+   
+    
+    
+    
+
+
+
+
+
+
+
