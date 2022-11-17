@@ -29,7 +29,6 @@
         background-color: white;
         width: 100%;
         margin:0;
-        width: 100%;
         font-family: var(--mainfont);
         
     
@@ -95,7 +94,7 @@
     }
     
     header {
-        margin-top: 40px;
+        
         padding-bottom: 30px;
         margin-bottom: 30px;
         
@@ -139,21 +138,43 @@
         margin: 20px;
         justify-content: space-evenly;
         gap:20px;
-        
-        
-       
+
+
     
     }
+
+
+    .container a {
+        text-decoration: none; 
+        
+    }
+
+   .container a:visited { 
+        text-decoration: none; 
+        color:black
+       }
+
+    .price {
+        color: var(--blue);
+    }
+
+    .price a:visited {
+        color: var(--blue);
+    }
+
+    
 
     select {
         padding: 10px;
         margin: 10px;
         padding-right: 60px;
         font-family: var(--mainfont);
+        
 
     
         
     }
+   
 
     .dropdown {
         display: flex;
@@ -215,6 +236,9 @@
         background: var(--grey);
         padding: 30px;
         width:200px;
+        display:flex;
+        justify-content: center;
+        align-items: center;
     }
 
 
