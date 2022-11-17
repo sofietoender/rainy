@@ -129,14 +129,11 @@
 
     .container {
         display: grid;
-        grid-template-areas: "mycard1 mycard2 mycard3 "
-        "mycard4 mycard5 mycard6 "
-        "mycard7 mycard8 mycard9 "
-        ;
-        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
         width: 100%;
         margin: 20px;
-        justify-content: space-evenly;
+        place-items: center;
         gap:20px;
 
 
@@ -180,54 +177,7 @@
         display: flex;
     }
     
-    .card1 {
-    grid-area: mycard1;
-    width: 100%;
     
-    
-    
-    }
-    
-    .card2 {
-        grid-area: mycard2
-        width: 100%;
-    }
-    
-    .card3 {
-        grid-area: mycard3;
-        width: 100%;
-        
-    
-    }
-    
-    .card4 {
-        grid-area: mycard4;
-        width: 100%;
-    }
-    
-    .card5 {
-        grid-area: mycard5;
-        width: 100%;
-    }
-    
-    .card6 {
-        grid-area: mycard6;
-        width: 100%;
-    }
-    
-    .card7 {
-        grid-area: mycard7;
-        width: 100%;
-    }
-    .card8 {
-        grid-area: mycard8;
-        width: 100%;
-    }
-    
-    .card9 {
-            grid-area: mycard9;
-            width: 100%;
-        }
     
     
     

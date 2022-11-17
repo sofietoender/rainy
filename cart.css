@@ -10,25 +10,21 @@
         height: 100%;
         margin:0px;
         overflow-x:hidden;
+        width: 100%;
+
+        box-sizing: border-box;
+       }
+       html:focus-within {
+        scroll-behavior: smooth;
+       }
+       *,
+       *::before,
+       *::after {
+        box-sizing: inherit;
+       }
         
         
-        
-    }
-    
-    
-    
-    @media screen and (min-width: 640px) {
-       html {
-       
-        
-               
-            
-        }
-    }
-    
-    
-    
-    
+
     
     
     body {
@@ -37,6 +33,9 @@
         width: 100%;
         margin:0;
         width: 100%;
+        overflow-x:hidden;
+        align-items: center
+        
         
     
     
@@ -139,11 +138,24 @@
         color:#4C6A72;
     }
 
-    form {
-        height: 100%;
-        min-width: 50%;
-    
+    .cartsection {
+        border: solid 1px #000000;
+        width: 350px;
+        margin:15px;
+        padding:10px;
+        border-radius: 10px;
+       
+
+
     }
+
+    .jacketcart {
+        width: 100px;
+    }
+
+   
+       
+
     
     
     .form {
@@ -154,8 +166,9 @@
         "contactus contactus"
         "firstname lastname"
         "email myphonenumber"
-        "message message"
-        "submit submit";
+        "myadress myadress"
+        "mycity myzipcode"
+        "myconfirm mycancel";
         
         grid-template-columns: 1fr 1fr;
         grid-template-rows:  1fr;
@@ -165,8 +178,11 @@
         
         border-radius: 10px;
         margin:15px;
-        padding: 10px;;
-        width: 400px;
+        padding: 10px 10px 70px 10px;
+        width: 350px;
+        gap:20px;
+
+        
         
         
         
@@ -200,6 +216,8 @@
 
     .phonenumber {
         grid-area:myphonenumber;
+        padding: 8px;
+        border: 1px solid black;
     }
     
     .contactus{
@@ -210,21 +228,119 @@
     
     }
     
-    .message {
-        grid-area: message;
-        height: 200px;
-        padding: 8px;
-        border-radius: 5px;
-        border: 1px solid black;
-        font-family: var(--mainfont);
-       
-    }
+   
     
-    .submit {
-    grid-area: submit;
+    .confirm_now {
+    grid-area: myconfirm;
     padding: 8px;
     border-radius: 5px;
     border: 1px solid black;
     background-color: var(--blue);
+    
+    }
+
+    .cancel {
+        grid-area: mycancel;
+        padding: 8px;
+        border-radius: 5px;
+        border: 1px solid black;
+        background-color:
+        }
+
+    .adress_form {
+        grid-area:myadress;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .city {
+        grid-area: mycity;
+        padding: 8px;
+        border: 1px solid black;
+
     }
     
+    .zipcode {
+        grid-area: myzipcode;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+
+    .cart_form {
+        display:grid;
+        grid-template-areas:
+        "mycardinfo mycardinfo"
+        "mycard_number mycard_number"
+        "mymonth_year mycvc"
+        "mynameoncard mynameoncard"
+        "myname_card myname_card"
+        "mypay mypay";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows:  1fr;
+        
+        border: solid 1px black;
+        
+        
+        border-radius: 10px;
+        margin:15px;
+        padding: 10px 10px 70px 10px;
+        width: 350px;
+        gap:10px;
+        
+    
+    }
+    
+    .cardinfo{
+        grid-area:mycardinfo;
+    }
+
+    .card_number {
+        grid-area: mycard_number;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .month_year {
+        grid-area:mymonth_year;
+        padding: 8px;
+        border: 1px solid black;
+        gap:20px;
+    }
+
+    .cvc {
+        grid-area: mycvc;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .nameoncard {
+        grid-area: mynameoncard;
+
+        
+    }
+
+    .name_card {
+        grid-area:myname_card;
+        padding: 8px;
+        border: 1px solid black;
+    }
+
+    .pay-link {
+        grid-area: mypay;
+        padding: 8px;
+        background: var(--blue);
+        border:none;
+        
+    }
+
+    .pay-button {
+        background: none;
+        border:none;
+        
+    }
+    
+    
+    
+    
+
