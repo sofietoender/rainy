@@ -170,39 +170,39 @@
 
     .button-l:hover {
         
-        background: yellow;
+        background: var(--darkgrey);
        
 
     }
 
     .button-m:hover {
         
-        background: yellow;
+        background: var(--darkgrey);
        
 
     }
     .button-s:hover {
         
-        background: yellow;
+        background: var(--darkgrey);
        
 
     }
     
     .button-l:focus{
         
-        background: green;
+        background: var(--blue);
 
     }
 
     .button-m:focus{
 
-        background: green;
+        background: var(--blue);
 
     }
 
     .button-s:focus{
 
-        background: green;
+        background: var(--blue);
         
 
     }

@@ -63,6 +63,10 @@
         
     
     }
+
+   
+
+   
     
     
     
@@ -121,6 +125,10 @@
         
         
     }
+
+    .navtext:visited {
+        text-decoration: none;
+       }
 
     .container {
         display: grid;
@@ -184,7 +192,7 @@
     }
 
     .container a:hover{
-color:var(--blue)
+        color:var(--blue)
     }
 
 
