@@ -183,6 +183,10 @@
         align-items: center;
     }
 
+    .container a:hover{
+color:var(--blue)
+    }
+
 
     @media screen and (max-width: 833px) {
 
