@@ -1,0 +1,166 @@
+:root {
+    --mainfont: 'Roboto', sans-serif;
+    --blue:#4C6A72;
+    --grey:#F1F1F2;
+    --darkgrey:#808181;
+    
+    }
+    
+    html {
+        height: 100%;
+        margin:0px;
+        overflow-x:hidden;    
+    }
+    
+    
+    body {
+        height: 100%;
+        background-color: #F1F1F2;
+        width: 100%;
+        margin:0;
+        width: 100%;
+        
+    
+    
+    }
+    
+    
+    nav {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .navbar {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    .navicons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+    }
+    
+    
+    header img {
+       width: 100px;
+       margin-top: 20px;   
+    }
+    
+    header {
+        margin-top: 40px;  
+    }
+    
+    
+    
+    .navlogo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+    }
+    
+    .navtext{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        text-decoration: none;
+        font-family: roboto;
+        width: 100%;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    
+    a:hover {
+        text-decoration: underline;
+        background-position-x: left;
+        
+    }
+    
+    a:visited {
+        text-decoration: none;
+        color:#4C6A72;
+    }
+
+    img {
+        width: 100%;
+       
+       }
+
+       main {
+        display: flex;
+        flex-direction: column;
+        margin:20px;
+        font-family: var(--mainfont);
+        align-items: center;
+       }
+
+       h1 {
+        color: var(--blue);
+        
+       }
+
+      
+
+
+
+       @media screen and (min-width: 640px) {
+        
+
+        main {
+            margin-top: 70px;
+            margin-left: 40px;
+            margin-right: 40px;
+            
+        
+        }
+
+       .about-section {
+        display:flex;
+        flex-direction: row;
+       
+       
+       }
+
+        .pictures-about {
+         display:flex;
+         flex-direction: column;
+         
+         margin-right: 40px;
+         
+        }
+
+        .main-text {
+            margin: 0 auto;
+        
+            display:flex;
+            flex-direction: column;
+     
+        }
+
+        h1 {
+            margin-top: 0px;
+        }
+
+        .picture-red-jackets {
+            margin-bottom: 30px;
+            width: 500px;
+
+        }
+
+     }

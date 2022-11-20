@@ -1,0 +1,144 @@
+:root {
+    --mainfont: 'Roboto', sans-serif;
+    --blue:#4C6A72;
+    --grey:#F1F1F2;
+    --darkgrey:#808181;
+    
+    }
+    
+    html {
+        height: 100%;
+        margin:0px;
+        overflow-x:hidden;
+        width: 100%;
+
+        box-sizing: border-box;
+       }
+       html:focus-within {
+        scroll-behavior: smooth;
+       }
+       *,
+       *::before,
+       *::after {
+        box-sizing: inherit;
+       }
+        
+    body {
+        height: 100%;
+        background-color: #FFFFFF;
+        width: 100%;
+        margin:0;
+        width: 100%;
+        overflow-x:hidden;
+        align-items: center
+        
+        
+    }
+    
+    
+    nav {
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+       
+    }
+    
+    .navbar {
+        display: flex;
+        width: 100%;
+        
+    }
+    
+    .navicons {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    
+    li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        
+    
+    }
+    
+     
+    header img {
+       width: 100px;
+              
+    }
+    
+    header {
+        background-color:var(--grey)
+       
+    }
+    
+
+    .navlogo {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        margin-top: 40px;
+    
+    }
+    
+    .navtext{
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        list-style: none;
+        text-decoration: none;
+        font-family: roboto;
+        width: 100%;
+        color: var(--blue);
+            
+    }
+    
+    a{
+        text-decoration: none;
+    }
+    
+    
+    a:visited {
+        text-decoration: none;
+        color:#4C6A72;
+    }
+
+    h1,p  {
+        font-family: var(--mainfont);
+        
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+
+    .text-finish {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 40px 20px 30px 20px; 
+        justify-content: center;
+       
+    }
+
+    p {
+        font-family: var(--mainfont);
+    }
+
+
+    
+
+    .fa-circle-check {
+        color:var(--blue);
+        
+    }
+
+    
+
+    
+
+  

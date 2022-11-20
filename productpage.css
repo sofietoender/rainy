@@ -17,20 +17,7 @@
     
     
     
-    @media screen and (min-width: 640px) {
-       html {
-      
-        
-               
-            
-        }
-    }
-    
-    
-    
-    
-    
-    
+ 
     body {
         height: 100%;
         background-color: white;
@@ -136,7 +123,7 @@
     
     a:visited {
         text-decoration: none;
-        color:#000000;
+        
     }
     
     main {
@@ -255,9 +242,13 @@
         text-decoration: none; 
         background-color: #4C6A72;
         border:none;
-        color:#000000;
+        color:white;
     
 
+    }
+
+    .addtocart :visited {
+        color:white
     }
 
    
@@ -276,86 +267,82 @@
         grid-area:myproduct;
     }
 
-    @media screen and (min-width: 640px) {
-        .product-page {
-            display:grid;
-            grid-template-areas:"myproduct mytext-product"
-            "myproduct mybuttons"  ;
-            justify-content: center;
-            gap:20px;
-        }
-     
-    }
-
-
-
-        
-    .product-card {
-                background: var(--grey);
-                display:flex;
-                flex-direction: row;
-                background: white;
-                border: var(--grey) 3px solid;
-                width: 400px;
-               
-               
+   
+            @media screen and (min-width: 640px) {
+                .product-page {
+                    display:grid;
+                    grid-template-areas:"myproduct mytext-product"
+                    "myproduct mybuttons"  ;
+                    justify-content: center;
+                    gap:20px;
+                }
+                .product-card-container {
+                  
+                    display:flex;
+                    flex-direction: row;
+                    overflow-x: auto;
                 
-            }
-            
-            .product-card1 {
-             padding: 20px;
-             width: 300px;
-            margin: 20px ;
+                }
                 
-            
+                .product-card {
+                    padding: 20px;
+                    width: 300px;
+                    margin: 20px ;
+                    border: 1px solid var(--grey);
+                    background: white;
+                    
                 
-            }
-            
-            .productimage {
-                width: 200px;
-                background: var(--grey);
-                padding: 30px;
-                padding-bottom: 90px;
-                border: #F1F1F2 solid 2px;
-                position: relative;
+                    
+                }
+                
+                .productimage {
+                    width: 200px;
+                    background: var(--grey);
+                    padding: 30px;
+                    padding-bottom: 90px;
+                    border: #F1F1F2 solid 2px;
+                    position: relative;
+                    
+                    
+                    
+                }
+                
+                .text-product {
+                    font-family: var(--mainfont);
+                    position: relative;
+                }
                 
                 
+                .section-product-card {
+                    margin:30px;
+                    overflow: hidden;
+                    
+                }
                 
-            }
-            
-            .text-product {
-                font-family: var(--mainfont);
-                position: relative;
-            }
-            
-            
-            .section-product-card {
+                .section-product-card p {
+                    font-family: var(--mainfont);
+                    
+                    
+                }
                 
-                margin-bottom:30px;
-                margin-top: 30px;
-                width: 400px;
+                .product-price {
+                    font-size: 1rem;
+                    color: var(--blue);
+                    
+                }
                 
-            }
-            
-            .section-product-card p {
-                font-family: var(--mainfont);
+                .product-brand {
+                    font-weight: bold;
+                }
              
-                
             }
-            
-            .product-price {
-                font-size: 1rem;
-                color: var(--blue);
-                
+            @media screen and (max-width: 640px) {
+
+            .product-card-container {
+                  
+                display:none;
             }
-            
-            .product-brand {
-                font-weight: bold;
-            }
-            
-            .textfavorite {
-                font-size: 2em;
-            }
+        }
         
            
 

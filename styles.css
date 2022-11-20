@@ -8,15 +8,10 @@
 
 html {
     height: 100%;
-    margin:0px;
+    margin: 0px;
     overflow-x:hidden;
-    
-    
-    
+    box-sizing: border-box;
 }
-
-
-
 
 
 body {
@@ -29,6 +24,8 @@ body {
 
 
 }
+
+
 
 
 nav {
@@ -55,10 +52,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
-
 }
-
 
 header img {
    width: 100px;
@@ -87,32 +81,37 @@ header {
     width: 100%;
 }
 
-a {
+.navtext :visited {
+    color: var(--blue);
     text-decoration: none;
 }
 
 
-a:hover {
+
+.navtext :hover {
     text-decoration: underline;
-    background-position-x: left;
-    
 }
 
-a:visited {
+.button_on_image :hover{
     text-decoration: none;
-    color:#4C6A72;
+    color:black;
+    background-color: var(--blue);
+   
+}
+
+.button_on_image :visited {
+    text-decoration:none;
+    color:black;
+   
 }
 
 main {
     width: 100%;
     overflow: hidden;
     position: relative;
-    text-align: center;
     font-family: var(--mainfont);
 
 }
-
-
 
 
 img {
@@ -120,31 +119,40 @@ img {
 
 }
 
-
-
-
 .textphoto {
-width: 150px;
-position: absolute;
-top: 90px;
-left: 16px;
-}
-
-    
-
-
-
-button {
-    padding: 5px 5px 5px 5px;
     width: 150px;
     position: absolute;
+    top: 90px;
     left: 16px;
-    top: 170px;
-    border-radius: 0px;
-    border:none;
-}
+    
+    }
+    
+    
+    button {
+        padding: 5px 5px 5px 5px;
+        width: 150px;
+        position: absolute;
+        left: 16px;
+        top: 170px;
+        border-radius: 0px;
+        border:none;
+    }
 
+    .button_on_image:hover {
+        background:var(--blue);
+        text-decoration: none;
+    }
 
+    .hikingphoto {
+    margin-top: 30px;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-family: var(--mainfont);
+
+    }
 
 
 .canoing {
@@ -165,11 +173,6 @@ button {
     overflow-x:scroll;
 }
 
-
-
-
-    
-
 .activity-icon{
     background-color: white;
     border-radius: 50%;
@@ -177,9 +180,7 @@ button {
     padding: 20px;
     margin-right: 10px;
     overflow-x:scroll;
-   
-    
-    
+  
 }
 
 .activity {
@@ -199,10 +200,13 @@ flex-direction: column;
 align-items: center;
 width: 100%;
 
-
-
 }
 
+.jackets-activity-text {
+    
+    font-size: 30px;
+
+ }
 
 .logo-card {
     background-color: var(--darkgrey);
@@ -224,10 +228,7 @@ width: 100%;
     padding-left: 45px;
     margin-right: 10px;
     overflow-x:scroll;
-   
-   
-    
-    
+     
 }
 
 .logo {
@@ -237,7 +238,6 @@ width: 100%;
 margin-top: 20px;
 justify-content: space-between;
 gap:20px;
-
 
 }
 
@@ -258,19 +258,18 @@ footer {
     background: var(--grey);
     display:flex;
     flex-direction: row;
-    background: white;
     border: var(--grey) 3px solid;
     overflow-x: auto;
 
 }
 
 .product-card {
- padding: 20px;
- width: 300px;
-margin: 20px ;
-    
-
-    
+    padding: 20px;
+    width: 300px;
+    margin: 20px ;
+    border: 1px solid var(--grey);
+    background: white;
+  
 }
 
 .productimage {
@@ -280,9 +279,7 @@ margin: 20px ;
     padding-bottom: 90px;
     border: #F1F1F2 solid 2px;
     position: relative;
-    
-    
-    
+      
 }
 
 .text-product {
@@ -294,13 +291,12 @@ margin: 20px ;
 .section-product-card {
     margin-bottom:30px;
     margin-top: 30px;
-    
+        
 }
 
 .section-product-card p {
     font-family: var(--mainfont);
-    
-    
+      
 }
 
 .product-price {
@@ -318,36 +314,31 @@ margin: 20px ;
 }
 
 
+
 @media screen and (min-width: 640px) {
-    html {
-     margin:20px;    
-     }
- 
-     .textphoto {
-         width: 600px;
-         position: absolute;
-         top: 400px;
-         left: 16px;
-         font-size: 5em;
-     }
- 
-     button {
-         padding: 20px 20px 20px 20px;
-         width: 150px;
-         position: absolute;
-         left: 60px;
-         top: 700px;
-         border-radius: 0px;
-         border:none;
-         font-size: 15px;
-     }
-     
-     
-         button:hover {
-             background-color: var(--blue);
-             color: #F1F1F2;
-         }
- }
+    html{
+        margin:20px;
+    }
+
+    .activity-icon{
+       
+        overflow-x:scroll;
+      
+    }
+
+   
+
+
+
+}
+
+
+
+
+
+
+
+
 
 
 
