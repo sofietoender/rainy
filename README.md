@@ -24,7 +24,7 @@ The site needs to have every page (Scene) listed in the site architecture on you
 Installing
 Clone the repo:
 ``` 
-https://github.com/sofietoender/community-museum.git
+https://github.com/sofietoender/rainy.git
 ```
 
 ### Running
