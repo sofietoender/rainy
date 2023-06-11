@@ -21,7 +21,8 @@ The site needs to have every page (Scene) listed in the site architecture on you
 - CSS
 
 ### Getting Started
-Installing
+
+### Installing
 Clone the repo:
 ``` 
 https://github.com/sofietoender/rainy.git
