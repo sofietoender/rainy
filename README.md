@@ -20,7 +20,7 @@ The site needs to have every page (Scene) listed in the site architecture on you
 - HTML
 - CSS
 
-### Getting Started
+# Getting Started
 
 ### Installing
 Clone the repo:
