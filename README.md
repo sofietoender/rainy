@@ -1,15 +1,19 @@
-# Rainy Days 
-Course Assignment - HTML and CSS
-Link to website: https://stupendous-starlight-46ecf3.netlify.app/index.html
-Figma: https://www.figma.com/file/Rar9IqT3qOxADyO6f9GKgg/Rainy-Days?node-id=2%3A20&t=jKLLYLTDBLIFqE9X-1
+# Rainy Days - Course Assignment
 
-Goal for this course assignment:
--To put into practice everything you’ve learned about HTML and CSS over this course.
+# Description
 
-Resources:
-https://www.w3schools.com/css/tryit.asp?filename=trycss_link_decoration
-https://css-tricks.com/snippets/css/complete-guide-grid/
-https://fed-vocational-astro-course.vercel.app/en/html-css/module-3/flexbox
-https://fed-vocational-astro-course.vercel.app/en/html-css/module-3/flexbox
-https://fontawesome.com/docs/web/style/size
-https://www.w3schools.com/cssref/sel_hover.php
+### Goal To put into practice everything you’ve learned about HTML and CSS over this course.
+
+You need to deliver a properly functioning, responsive website for the assignment brief that you chose in Design 1 (This wuld be your Figma design).
+
+The site needs to have every page (Scene) listed in the site architecture on your chosen brief. Certain functionality that requires JavaScript can be mimicked for now, for example a log in page could link across from the ‘Sign in’ button.
+
+- The HTML should be semantic and neat.
+- The CSS should follow the DRY principle and be easy to read.
+- The website should be responsive and look good at every screen size starting from 320px with no horizontal scrollbars. Use Flexbox and CSS Grids where appropriate. Please do not use a CSS framework like Bootstrap, we want to see that you can build responsive sites without the help of a framework.
+- The site should be WCAG compliant and accessibility taken into account.
+- Each page should have a unique meta description, title, and h1.
+- You should not use copied code in your submission. All code submitted must be written by you. You may use external sources to show you how to achieve specific effects, and these should be included in your report.
+- You are allowed to use external libraries such as animation.css or open-props, but you must include quote them in your submission.
+
+
