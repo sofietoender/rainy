@@ -16,4 +16,20 @@ The site needs to have every page (Scene) listed in the site architecture on you
 - You should not use copied code in your submission. All code submitted must be written by you. You may use external sources to show you how to achieve specific effects, and these should be included in your report.
 - You are allowed to use external libraries such as animation.css or open-props, but you must include quote them in your submission.
 
+### Built with
+- HTML
+- CSS
+
+### Getting Started
+Installing
+Clone the repo:
+``` 
+https://github.com/sofietoender/community-museum.git
+```
+
+### Running
+Using the liveServer extension for VScode:
+
+Right click on the index.html and click view in live server. This will open http://localhost:3000 in your browser where you can see the result.
+
 
