@@ -1,9 +1,9 @@
 # Rainy Days - Course Assignment
 
+### Goal
+To put into practice everything you’ve learned about HTML and CSS over this course.
+
 # Description
-
-### Goal To put into practice everything you’ve learned about HTML and CSS over this course.
-
 You need to deliver a properly functioning, responsive website for the assignment brief that you chose in Design 1 (This wuld be your Figma design).
 
 The site needs to have every page (Scene) listed in the site architecture on your chosen brief. Certain functionality that requires JavaScript can be mimicked for now, for example a log in page could link across from the ‘Sign in’ button.
